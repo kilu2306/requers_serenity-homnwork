@@ -1,0 +1,7 @@
+in\reqres\constant\path.class
+in\reqres\model\TokenPojo.class
+in\reqres\model\UserPojo.class
+in\reqres\constant\EndPoints.class
+in\reqres\utils\TestUtils.class
+in\reqres\userinfo\UserSteps.class
+in\reqres\utils\PropertyReader.class
