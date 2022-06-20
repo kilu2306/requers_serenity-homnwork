@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"End To End Testing for user","User should be able to get user with User id","FAILURE","2022-06-20T09:50:36.723+01:00[Europe/London]","0.0","0.16"

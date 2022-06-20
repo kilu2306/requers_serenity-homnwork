@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"User curd test","creating user ","SUCCESS","2022-06-05T19:15:27.732+01:00[Europe/London]","0.0","3.14"
-"User curd test","update user","SUCCESS","2022-06-05T19:15:31.117+01:00[Europe/London]","0.0","0.24"
-"User curd test","Delete user ","SUCCESS","2022-06-05T19:15:31.363+01:00[Europe/London]","0.0","0.32"
+"User curd test","creating user ","SUCCESS","2022-06-20T09:50:37.535+01:00[Europe/London]","0.0","0.17"
+"User curd test","update user","SUCCESS","2022-06-20T09:50:37.864+01:00[Europe/London]","0.0","0.19"
+"User curd test","Delete user ","SUCCESS","2022-06-20T09:50:38.051+01:00[Europe/London]","0.0","0.31"

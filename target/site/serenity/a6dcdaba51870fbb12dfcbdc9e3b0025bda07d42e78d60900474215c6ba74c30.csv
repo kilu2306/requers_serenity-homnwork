@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"End To End Testing for user","User should be able to creat user successfully","SUCCESS","2022-06-20T09:50:32.301+01:00[Europe/London]","0.0","3.41"
+"End To End Testing for user","User should be able to update user by id","SUCCESS","2022-06-20T09:50:37.067+01:00[Europe/London]","0.0","0.13"
+"End To End Testing for user","User should be able to delete user","SUCCESS","2022-06-20T09:50:37.270+01:00[Europe/London]","0.0","0.19"

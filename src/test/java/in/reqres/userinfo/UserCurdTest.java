@@ -28,7 +28,7 @@ public class UserCurdTest extends TestBase {
         System.out.println(userId);
 
     }
-    @Title("getSinger user  ")
+    @Title("getSingel user  ")
     @Test
     public  void test002(){
         ValidatableResponse response = userSteps.getSingleUser(userId);

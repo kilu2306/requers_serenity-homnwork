@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="in.reqres.userinfo.UserCurdTest" time="3.938" tests="4" errors="0" skipped="0" failures="1">
+<testsuite name="in.reqres.userinfo.UserCurdTest" time="0.829" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2021.3.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,8 +63,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="test001" classname="in.reqres.userinfo.UserCurdTest" time="3.186"/>
-  <testcase name="test002" classname="in.reqres.userinfo.UserCurdTest" time="0.193">
+  <testcase name="test001" classname="in.reqres.userinfo.UserCurdTest" time="0.188"/>
+  <testcase name="test002" classname="in.reqres.userinfo.UserCurdTest" time="0.141">
     <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <200> but was <404>.
 
@@ -75,8 +75,6 @@ Expected status code <200> but was <404>.
 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
 	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -95,18 +93,18 @@ Expected status code <200> but was <404>.
 	at in.reqres.userinfo.UserCurdTest.test002(UserCurdTest.java:35)
 ]]></failure>
     <system-out><![CDATA[Request method:	GET
-Request URI:	https://reqres.in/api/users/661
+Request URI:	https://reqres.in/api/users/606
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	userID=661
+Path params:	userID=606
 Multiparts:		<none>
 Headers:		Accept=*/*
 Cookies:		<none>
 Body:			<none>
 HTTP/1.1 404 Not Found
-Date: Sun, 05 Jun 2022 18:15:33 GMT
+Date: Mon, 20 Jun 2022 08:50:37 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 2
 Connection: keep-alive
@@ -117,18 +115,17 @@ Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: MISS
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=M%2FMyauG02k3Xp4X2EwQuxaVMn6WHupJx56BWOVRGzTTzUVErKQrF71IJT8OuZKxINIFhW8TaJzo%2BrnpXkF%2FTMLsWoBNUJ7hRZLEAJWOzihcnodE5ioDWq9Yp464%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uv66KrJaq7fvfEAoqQEYRDOQcddXUdx2EJS7OWlBd6fFNuIKw8z%2FUgHu5DS5noVIDYoA6kG%2BLTr07Na6zgsFvW6HUQQXxKTu2%2FA5mAclT%2BZRhXpHVI8P6LuovA%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 716ae4f3ba64d20c-MAN
-alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+CF-RAY: 71e342091f7554dc-MAN
 
 {
     
 }
 ]]></system-out>
-    <system-err><![CDATA[3791 [main] INFO net.serenitybdd.core.Serenity - 
+    <system-err><![CDATA[6141 [main] INFO net.serenitybdd.core.Serenity - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -138,7 +135,7 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 TEST PASSED: creating user 
 ----------------------------------------------------------------------------
-3792 [main] INFO net.serenitybdd.core.Serenity - 
+6141 [main] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -148,9 +145,9 @@ TEST PASSED: creating user
 
 TEST STARTED: test002
 -------------------------------------------------------------------
-3792 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+6141 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
 ]]></system-err>
   </testcase>
-  <testcase name="test003" classname="in.reqres.userinfo.UserCurdTest" time="0.245"/>
-  <testcase name="test004" classname="in.reqres.userinfo.UserCurdTest" time="0.314"/>
+  <testcase name="test003" classname="in.reqres.userinfo.UserCurdTest" time="0.187"/>
+  <testcase name="test004" classname="in.reqres.userinfo.UserCurdTest" time="0.313"/>
 </testsuite>

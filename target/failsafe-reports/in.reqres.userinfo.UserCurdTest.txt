@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: in.reqres.userinfo.UserCurdTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.586 sec <<< FAILURE! - in in.reqres.userinfo.UserCurdTest
-test002(in.reqres.userinfo.UserCurdTest)  Time elapsed: 0.193 sec  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.891 sec <<< FAILURE! - in in.reqres.userinfo.UserCurdTest
+test002(in.reqres.userinfo.UserCurdTest)  Time elapsed: 0.141 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <200> but was <404>.
 
@@ -13,8 +13,6 @@ Expected status code <200> but was <404>.
 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
 	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
